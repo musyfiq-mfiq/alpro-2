@@ -1,0 +1,64 @@
+# 1
+var = 3
+nilai = 90
+nama_mahasiswa = 'taohid'
+print(var)
+print(nilai)
+print(nama_mahasiswa)
+print(var, nilai, nama_mahasiswa)
+
+# 2
+nama = 'budi'
+print(nama)
+
+# 3
+umur = 19
+print(umur)
+umur = 19 + 5
+print(umur)
+
+# 4
+tabungan = 90000
+tabungan = 90000 + 5000
+print(tabungan)
+
+# 5
+taohid = 23
+taohid += 24
+print(taohid)
+x = 5
+x *= 7
+print(x)
+
+# 6
+a = 5.0
+b = 6.0
+c = (a**2 + b**2)**3
+print('c =', c)
+
+# 7
+ayu = 5000
+bagus = 4000
+citra = 20000
+print(ayu, bagus, citra)
+jumlah_tabungan = ayu + bagus + citra
+print('jumlah tabungan adalah: ', jumlah_tabungan)
+
+# 8
+kilometer = 3
+mil = 2.33
+mil_ke_kilometer = 3.74
+kilometer_ke_mil = 1.86
+print(mil, "mil adalah", round(mil_ke_kilometer, 2), "kilometer")
+print(kilometer, "kilometer adalah", round(kilometer_ke_mil, 2), "mil")
+
+# 9
+x = 0
+y = (3*x**3 - 2*x**2 + 3*x - 1)
+print(y)
+x = 1
+y = (3*x**3 - 2*x**2 + 3*x - 1)
+print(y)
+x = -1
+y = (3*x**3 - 2*x**2 + 3*x - 1)
+print(y)
